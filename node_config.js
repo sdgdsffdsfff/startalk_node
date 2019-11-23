@@ -1,14 +1,19 @@
 module.exports = {
-    "fileurl":"",
-    "javaurl":"",
-    "httpurl":"",
-    "apiurl":"",
-    "searchurl":"",
+    "javaurl": "",
+    "fileurl": "",
+    "httpurl": "",
+    "apiurl": "",
+    "xmpp": "",
     "web":{
-        "title":'Startalk Web',
-        "stycss": '',
-        "scrcss": '',
-        "sdkjs": '',
-        "scrjs": ''
-    }
+        "title":'Qchat Web',
+        "webcss": '/styles/web/page/' + '',
+        "webjs": '/scripts/page/web/' + ''
+    },
+    "touch":{
+        "title":'Qchat Touch',
+        "touchcss": '/styles/touch/page/' + '',
+        "touchjs": '/scripts/page/touch/' + ''
+    },
+    "jquery": '/scripts/lib/jquery/'+ '',
+    "navigation": '/' + ""
 }
